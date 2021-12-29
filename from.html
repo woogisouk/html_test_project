@@ -5,6 +5,66 @@
     <title>From Test</title>
 </head>
 <body>
-
+<h1>폼 테스트</h1>
+<form action="">
+    <table>
+        <tr style="padding:8px;">
+            <td style="padding:8px;">ID:</td>
+            <td><input type="text"></td>
+            <td rowspan="2">
+                <button type="button" onclick="">로그인</button>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:8px;">PW:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td style="padding:8px;">성별:</td>
+            <td colspan="2">남<input type="radio" name="info" checked>
+                여<input type="radio" name="info"></td>
+        </tr>
+        <tr>
+            <td style="padding:8px;">취미:</td>
+            <td colspan="2">
+                <input type="checkbox" name="ckb1">등산
+                <input type="checkbox" name="ckb2">독서
+                <input type="checkbox" name="ckb3">영화감상
+                <input type="checkbox" name="ckb4" checked>게임
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:8px;">이메일:</td>
+            <td><input type="text">@<select>
+                <option name="s0" value="0">선택</option>
+                <option name="s1" value="1">naver.com</option>
+                <option name="s2" value="2">daum.net</option>
+                <option name="s3" value="3">gmail.com</option>
+                <option name="s4" value="4">직접입력</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td style="padding:8px;">자기소개:</td>
+            <td>
+                <textarea rows="6" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:8px;">파일등록:</td>
+            <td><input type="file"></td>
+            <td>
+                <button type="button">등록</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;">
+                <button type="button">확인</button>
+                <button type="reset">초기화</button>
+                <button type="submit">가입완료</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+</form>
 </body>
 </html>
